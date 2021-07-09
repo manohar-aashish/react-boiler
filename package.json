@@ -1,0 +1,19 @@
+{
+  "name": "react-boiler",
+  "version": "1.0.0",
+  "description": "This is a react boiler and can be used as a template for react projects",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/manohar-aashish/react-boiler.git"
+  },
+  "author": "Aashish Manohar Varlani",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/manohar-aashish/react-boiler/issues"
+  },
+  "homepage": "https://github.com/manohar-aashish/react-boiler#readme"
+}
