@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "clean": "rm-rf ./build",
-    "prebuild": "npm install --only-prod",
+    "prebuild": "npm ci --only-prod",
     "build": "webpack --config webpack/webpack.config.js --env env=prod",
     "dev": "webpack serve --config webpack/webpack.config.js --env env=dev --port 3000 --profile --progress",
     "format": "prettier --write \"./**/*.{js,jsx,css,scss,json}\"",
